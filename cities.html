@@ -21,27 +21,31 @@
 
 <body>
 
-    <div class="container">
-        <div class="row">
-            <nav class="navbar navbar-expand-md navbar-light bg-info">
-                <a class="navbar-brand" href="#">A Few Cities</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="basic.html">Basic</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="advanced.html">Advanced</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+    <div class="container-fluid bg-primary">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand text-white" href="#">A Few Cities</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="basic.html">Basic</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="advanced.html">Advanced</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
     </div>
+
+    
 
     <div class="container">
         <div class="row">
@@ -100,8 +104,25 @@
             </p>
         </div>
     </div>
+
     <div class="container mt-4 mb-2">
         <div class="row">
+            <h3>Responsive Images</h3>
+            <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
+                <img src="Images/Italy.jpg" width="400px" height="350px" alt="Italy">
+            </div>
+            <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
+                <img src="Images/Manchester.jpg" width="400px" height="350px" alt="Manchester">
+            </div>
+            <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
+                <img src="Images/Kansas.jpg" width="400px" height="350px" alt="Kansas">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4 mb-2">
+        <div class="row">
+            <h3>Thumbnail Images</h3>
             <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
                 <img src="Images/Italy.jpg" class="img-thumbnail" alt="Italy">
             </div>
@@ -116,6 +137,7 @@
 
     <div class="container">
         <div class="row">
+            <h3>Table & Style</h3>
             <caption>Table showing Letters, Cities, Rivers and Trees</caption>
 
             <table class="table table-primary table-hover">
@@ -172,7 +194,36 @@
     <div class="container mt-4">
         <div class="row">
             <nav class="navbar navbar-expand-lg navbar-light bg-secondary p-2 mb-2">
-                <span class="navbar-brand text-white">Navigation</span>
+                <span class="navbar-brand text-white">Button Group for six letters</span>
+            </nav>
+
+            <div class="btn-toolbar" role="toolbar" aria-label="Button Groups">
+                <div class="btn-group mr-2 p-2" role="group" aria-label="Group 3">
+                    <button type="button" class="btn btn-success">K</button>
+                </div>
+                <div class="btn-group mr-2 p-2" role="group" aria-label="Group 3">
+                    <button type="button" class="btn btn-danger">U</button>
+                </div>
+                <div class="btn-group mr-2 p-2" role="group" aria-label="Group 3">
+                    <button type="button" class="btn btn-warning">R</button>
+                </div>
+                <div class="btn-group mr-2 p-2" role="group" aria-label="Group 3">
+                    <button type="button" class="btn btn-success">R</button>
+                </div>
+                <div class="btn-group mr-2 p-2" role="group" aria-label="Group 3">
+                    <button type="button" class="btn btn-warning">I</button>
+                </div>
+                <div class="btn-group mr-2 p-2" role="group" aria-label="Group 3">
+                    <button type="button" class="btn btn-danger">M</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-secondary p-2 mb-2">
+                <span class="navbar-brand text-white">Button Group</span>
             </nav>
 
             <div class="btn-toolbar" role="toolbar" aria-label="Button Groups">
@@ -194,7 +245,7 @@
         </div>
     </div>
 
-    <div class="container mb-2">
+    <div class="container mb-2" style="margin-top: 50px;">
         <div class="row">
             <div class="dropdown" style="text-align: center;">
                 <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton"
@@ -209,7 +260,7 @@
         </div>
     </div>
 
-    <p style="margin-bottom: 50px;"></p>
+    <p style="margin-bottom: 150px;"></p>
     <div class="container">
         <div class="row">
 
@@ -246,6 +297,7 @@
 
     <div class="container mt-4">
         <div class="row">
+            <H3>Bonus</H3>
             <div class="col-md-4">
                 <div class="card">
                     <img src="Images/Kansas.jpg" class="card-img-top" alt="Kansas">
